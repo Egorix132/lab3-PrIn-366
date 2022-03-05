@@ -20,5 +20,6 @@ abstract public class Seeder {
 
     abstract protected void seedCharacteristics();
 
+	// сИД ЮНИТ
     abstract protected void seedUnits();
 }
