@@ -9,7 +9,7 @@ public abstract class Unit {
     // -------------------------- Владелец ----------------------------
 
     private CanOwnUnit _owner;
-
+	// 1 commit main
     boolean setOwner(CanOwnUnit owner) {
         boolean ok =  canBelongTo(owner);
         if(ok) {
