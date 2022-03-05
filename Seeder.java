@@ -10,6 +10,7 @@ abstract public class Seeder {
     }
 
     public void run() {
+		// Сид робот
         seedRobot();
         seedCharacteristics();
         seedUnits();
